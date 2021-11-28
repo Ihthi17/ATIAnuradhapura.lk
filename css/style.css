@@ -1,0 +1,265 @@
+
+
+*{margin: 0;
+  padding: 0;
+}
+/*nav bar start*/
+body {font-family: Arial, Helvetica, sans-serif;
+  background: #f2f2f2;
+}
+
+.navbar {
+  width: 100%;
+  background-color:crimson;
+  overflow: auto;
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.849);
+  margin: auto;
+  position:-webkit-sticky;
+}
+
+.navbar a {
+  float: left;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background-color: #000;
+}
+
+.active {
+  background-color:darkgrey;
+}
+
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+}
+.right{
+  float: right;
+}
+/*nav close*/
+.border h1{
+ 
+ 
+ border-width: 100%;
+ height:200px;
+ 
+ 
+}
+.t{
+  text-align: center;
+  font-family:monospace;
+  color: crimson;
+  border-top: 20px;
+  font-size: 50px;
+  text-shadow: 2px 2px 4px #000000;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  
+}
+
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+body{
+  background: #f2f2f2;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.search {
+  
+  width: 100%;
+  position:fixed;
+  display:flex;
+}
+
+.searchTerm {
+  width: 100%;
+  border: 3px solid #00B4CC;
+  border-right: none;
+  padding: 5px;
+  height: 20px;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  color: #9DBFAF;
+}
+
+.searchTerm:focus{
+  color: #00B4CC;
+}
+
+.searchButton {
+  width: 40px;
+  height: 36px;
+  border: 1px solid #00B4CC;
+  background: #00B4CC;
+  text-align: center;
+  color: #fff;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+/*Resize the wrap to see the search bar change!*/
+.wrap{
+  width: 50%;
+  position:relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
+}
+
+
+/*footer*/
+.footer {
+  position:relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: crimson;
+  color: white;
+  text-align: left;
+}
+
+.h{
+  padding: 15px;
+}
+.btn{
+  background-color: green;
+  color: white;
+  padding: 14px 16px;
+  border-radius: 15px;
+}
+img1{
+  float:left;}
+
+.img3{
+  margin-top: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+  padding:5px;
+width: 60px;
+}
+.copyright{
+  background-color: black;
+  color: white;
+  width: 100%;
+  height: 25px;
+  text-align: center;
+  padding-top: 5px;
+}
+.far{
+  font-size:20px;
+  
+}
+.fa-facebook{
+  border-color:grey;
+  border-style:dotted;
+  padding: 5px;
+  border-radius:18%;
+  color: white;
+  
+}
+.fa-facebook:hover{
+  color: black;
+background-color:#f2f2f2 ;
+box-shadow: 0 0 5px #ffee10;
+  text-shadow: 0 0 5px #ffee10;
+
+}
+.fa-instagram{
+  border-color: gray;
+  border-style:dotted;
+  padding: 5px;
+  border-radius:18%;
+  color: white;
+}
+.fa-instagram:hover{
+  color: black;
+  background-color:#f2f2f2 ;
+  box-shadow: 0 0 5px #ffee10;
+  text-shadow: 0 0 5px #ffee10;
+
+  }
+.fa-linkedin{
+  border-color: gray;
+  border-style: dotted;
+  padding: 5px;
+  border-radius:18%;
+  color: white;
+}
+.fa-linkedin:hover{
+  color: black;
+  background-color:#f2f2f2 ;
+  box-shadow: 0 0 5px #ffee10;
+  text-shadow: 0 0 5px #ffee10;
+
+  }
+.fa-twitter-square{
+  border-color: gray;
+  border-style: dotted;
+  padding: 5px;
+  border-radius:18%;
+  color: white;
+}
+.fa-twitter-square:hover{
+  color: black;
+  background-color:#f2f2f2 ;
+  box-shadow: 0 0 5px #ffee10;
+  text-shadow: 0 0 5px #ffee10;
+
+  }
+.i{
+  padding: 3px;
+   border-radius: 50%; 
+   border-style: solid; 
+   transition: width 2s;
+}
+.i:hover{
+  width: 300px;
+}
+/*map*/
+.map{
+  padding-top:0;
+ padding-right: 100px;
+  float: right;
+  padding: bottom 0;
+  margin-top:auto;
+  margin-bottom:auto; 
+  padding-bottom:0%
+  
+}
+
+/*hr multiple colors*/
+hr.colored {
+  border: 0;   /* in order to override TWBS stylesheet */
+  height: 5px;
+  border-radius: 3px;
+
+  background: -moz-linear-gradient(left, rgba(196,222,138,1) 0%, rgba(196,222,138,1) 12.5%, rgba(245,253,212,1) 12.5%, rgba(245,253,212,1) 25%, rgba(255,208,132,1) 25%, rgba(255,208,132,1) 37.5%, rgba(242,122,107,1) 37.5%, rgba(242,122,107,1) 50%, rgba(223,157,185,1) 50%, rgba(223,157,185,1) 62.5%, rgba(192,156,221,1) 62.5%, rgba(192,156,221,1) 75%, rgba(95,156,217,1) 75%, rgba(95,156,217,1) 87.5%, rgba(94,190,227,1) 87.5%, rgba(94,190,227,1) 87.5%, rgba(94,190,227,1) 100%);  
+  background: -webkit-linear-gradient(left, rgba(196,222,138,1) 0%, rgba(196,222,138,1) 12.5%, rgba(245,253,212,1) 12.5%, rgba(245,253,212,1) 25%, rgba(255,208,132,1) 25%, rgba(255,208,132,1) 37.5%, rgba(242,122,107,1) 37.5%, rgba(242,122,107,1) 50%, rgba(223,157,185,1) 50%, rgba(223,157,185,1) 62.5%, rgba(192,156,221,1) 62.5%, rgba(192,156,221,1) 75%, rgba(95,156,217,1) 75%, rgba(95,156,217,1) 87.5%, rgba(94,190,227,1) 87.5%, rgba(94,190,227,1) 87.5%, rgba(94,190,227,1) 100%); 
+  background: -o-linear-gradient(left, rgba(196,222,138,1) 0%, rgba(196,222,138,1) 12.5%, rgba(245,253,212,1) 12.5%, rgba(245,253,212,1) 25%, rgba(255,208,132,1) 25%, rgba(255,208,132,1) 37.5%, rgba(242,122,107,1) 37.5%, rgba(242,122,107,1) 50%, rgba(223,157,185,1) 50%, rgba(223,157,185,1) 62.5%, rgba(192,156,221,1) 62.5%, rgba(192,156,221,1) 75%, rgba(95,156,217,1) 75%, rgba(95,156,217,1) 87.5%, rgba(94,190,227,1) 87.5%, rgba(94,190,227,1) 87.5%, rgba(94,190,227,1) 100%); 
+  background: -ms-linear-gradient(left, rgba(196,222,138,1) 0%, rgba(196,222,138,1) 12.5%, rgba(245,253,212,1) 12.5%, rgba(245,253,212,1) 25%, rgba(255,208,132,1) 25%, rgba(255,208,132,1) 37.5%, rgba(242,122,107,1) 37.5%, rgba(242,122,107,1) 50%, rgba(223,157,185,1) 50%, rgba(223,157,185,1) 62.5%, rgba(192,156,221,1) 62.5%, rgba(192,156,221,1) 75%, rgba(95,156,217,1) 75%, rgba(95,156,217,1) 87.5%, rgba(94,190,227,1) 87.5%, rgba(94,190,227,1) 87.5%, rgba(94,190,227,1) 100%); 
+  background: linear-gradient(to right, rgba(196,222,138,1) 0%, rgba(196,222,138,1) 12.5%, rgba(245,253,212,1) 12.5%, rgba(245,253,212,1) 25%, rgba(255,208,132,1) 25%, rgba(255,208,132,1) 37.5%, rgba(242,122,107,1) 37.5%, rgba(242,122,107,1) 50%, rgba(223,157,185,1) 50%, rgba(223,157,185,1) 62.5%, rgba(192,156,221,1) 62.5%, rgba(192,156,221,1) 75%, rgba(95,156,217,1) 75%, rgba(95,156,217,1) 87.5%, rgba(94,190,227,1) 87.5%, rgba(94,190,227,1) 87.5%, rgba(94,190,227,1) 100%); 
+}
+.a{
+  color: yellow;
+}
+/*mail*/
+.mail{
+  float: right;
+  padding-right: 50px;
+  padding-bottom: 50%;
+  position:fixed;
+  width: 30px;
+  height: 30px;
+
+}
+

@@ -1,0 +1,272 @@
+body{
+    background: #f2f2f2;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*nav bar start*/
+.navbar {
+    width: 100%;
+    background-color:crimson;
+    overflow: auto;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.849);
+    margin: auto;
+    position:-webkit-sticky;
+  }
+  
+  .navbar a {
+    float: left;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .navbar a:hover {
+    background-color: #000;
+  }
+  
+  .active {
+    background-color:darkgrey;
+  }
+  
+  @media screen and (max-width: 500px) {
+    .navbar a {
+      float: none;
+      display: block;
+    }
+  }
+  
+  .right{
+    float: right;
+  }
+/*nav bar close*/
+/*lending start*/
+h2{font-family:erif;}
+        p1{font-family: serif ;font-size:2em;font-size: large; line-height: 1cm;}
+        p2{font-family:serif;font-size:large;}
+        table{ font-family:erif;
+            border-collapse:separate;
+            width:100%;
+            font-size: larger;}
+     
+     td,th{border:10px;
+border-style:solid #dddddd;
+text-align: left;
+        padding: 10px;
+    }
+
+
+             
+        tr:nth-child(even){background-color: rgb(205, 239, 255);} 
+        
+        h3{font-family:erif;font-size: larger;}
+        p{font-family: serif ;font-size:2em;font-size: large; line-height: 2em;;}
+       .mydiv2{ height: 80%;
+              width:60%;
+             line-height: 2em;
+            }
+
+            ul{font-weight: normal;
+            font-size: large;
+            font-family:serif;
+            line-height: 2em;
+            }
+            .border{
+               
+                border-radius: 15px;
+                background-color: khaki;
+            }
+          
+            
+            /*lending close*/
+            /*opening hours open*/
+            .container{ 
+                background-origin: padding-box;
+                
+                }
+                .img1{width:100%;
+                    height:auto;
+                    background-color: black;
+    
+                }
+                
+                .mydiv{ text-align: center;
+                       text-emphasis-color: black;
+                    padding-top: 10px;
+                    }
+    
+                .table1{
+                    float: left;
+                    padding: 10px;
+                }
+                
+                
+    
+                tr:nth-last-child(even){
+                    background-color: rgb(119, 187, 250);
+                }
+    
+
+    
+               
+    
+            /*opening hours close*/    
+             /*footer*/
+        .footer {
+            position:relative;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            background-color:crimson;
+            color: white;
+            text-align: left;
+          }
+                  /*copyright*/
+        .copyright{
+            background-color: black;
+            color: white;
+            width: 100%;
+            height: 25px;
+            text-align: center;
+            padding-top: 5px;
+          }
+          .far{
+            font-size:20px;
+          }
+          /*icon*/
+          .fa-facebook{
+          border-color: gray;
+          border-style: dotted;
+          padding: 5px;
+          border-radius:18%;
+          color: white;
+        }
+        .fa-facebook:hover{
+        color: black;
+        background-color:#f2f2f2 ;
+        box-shadow: 0 0 5px #ffee10;
+       text-shadow: 0 0 5px #ffee10;
+        }
+        .fa-instagram{
+          border-color: gray;
+          border-style: dotted;
+          padding: 5px;
+          border-radius:18%;
+          color: white;
+        }
+        .fa-instagram:hover{
+        color: black;
+        background-color:#f2f2f2 ;
+        box-shadow: 0 0 5px #ffee10;
+        text-shadow: 0 0 5px #ffee10;
+        }
+        .fa-linkedin{
+          border-color: gray;
+          border-style: dotted;
+          padding: 5px;
+          border-radius:18%;
+          color: white;
+        }
+        .fa-linkedin:hover{
+        color: black;
+        background-color:#f2f2f2 ;
+        box-shadow: 0 0 5px #ffee10;
+        text-shadow: 0 0 5px #ffee10;
+        }
+        .fa-twitter-square{
+          border-color: gray;
+          border-style: dotted;
+          padding: 5px;
+          border-radius:18%;
+          color: white;
+        }
+        .fa-twitter-square:hover{
+        color: black;
+        background-color:#f2f2f2 ;
+        box-shadow: 0 0 5px #ffee10;
+        text-shadow: 0 0 5px #ffee10;
+        }
+        /*map*/
+        .map{
+          padding-top:0;
+         padding-right: 100px;
+          float: right;
+          padding: bottom 0;
+          margin-top:auto;
+          margin-bottom:auto; 
+          padding-bottom:0%
+          
+        }
+           .img2{
+               width: 50px;
+               height: 50px;
+           }
+                  /*footer*/
+      /*hr multiple colors*/
+hr.colored {
+  border: 0;   /* in order to override TWBS stylesheet */
+  height: 5px;
+  border-radius: 3px;
+
+  background: -moz-linear-gradient(left, rgba(196,222,138,1) 0%, rgba(196,222,138,1) 12.5%, rgba(245,253,212,1) 12.5%, rgba(245,253,212,1) 25%, rgba(255,208,132,1) 25%, rgba(255,208,132,1) 37.5%, rgba(242,122,107,1) 37.5%, rgba(242,122,107,1) 50%, rgba(223,157,185,1) 50%, rgba(223,157,185,1) 62.5%, rgba(192,156,221,1) 62.5%, rgba(192,156,221,1) 75%, rgba(95,156,217,1) 75%, rgba(95,156,217,1) 87.5%, rgba(94,190,227,1) 87.5%, rgba(94,190,227,1) 87.5%, rgba(94,190,227,1) 100%);  /* FF3.6+ */
+  background: -webkit-linear-gradient(left, rgba(196,222,138,1) 0%, rgba(196,222,138,1) 12.5%, rgba(245,253,212,1) 12.5%, rgba(245,253,212,1) 25%, rgba(255,208,132,1) 25%, rgba(255,208,132,1) 37.5%, rgba(242,122,107,1) 37.5%, rgba(242,122,107,1) 50%, rgba(223,157,185,1) 50%, rgba(223,157,185,1) 62.5%, rgba(192,156,221,1) 62.5%, rgba(192,156,221,1) 75%, rgba(95,156,217,1) 75%, rgba(95,156,217,1) 87.5%, rgba(94,190,227,1) 87.5%, rgba(94,190,227,1) 87.5%, rgba(94,190,227,1) 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(left, rgba(196,222,138,1) 0%, rgba(196,222,138,1) 12.5%, rgba(245,253,212,1) 12.5%, rgba(245,253,212,1) 25%, rgba(255,208,132,1) 25%, rgba(255,208,132,1) 37.5%, rgba(242,122,107,1) 37.5%, rgba(242,122,107,1) 50%, rgba(223,157,185,1) 50%, rgba(223,157,185,1) 62.5%, rgba(192,156,221,1) 62.5%, rgba(192,156,221,1) 75%, rgba(95,156,217,1) 75%, rgba(95,156,217,1) 87.5%, rgba(94,190,227,1) 87.5%, rgba(94,190,227,1) 87.5%, rgba(94,190,227,1) 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(left, rgba(196,222,138,1) 0%, rgba(196,222,138,1) 12.5%, rgba(245,253,212,1) 12.5%, rgba(245,253,212,1) 25%, rgba(255,208,132,1) 25%, rgba(255,208,132,1) 37.5%, rgba(242,122,107,1) 37.5%, rgba(242,122,107,1) 50%, rgba(223,157,185,1) 50%, rgba(223,157,185,1) 62.5%, rgba(192,156,221,1) 62.5%, rgba(192,156,221,1) 75%, rgba(95,156,217,1) 75%, rgba(95,156,217,1) 87.5%, rgba(94,190,227,1) 87.5%, rgba(94,190,227,1) 87.5%, rgba(94,190,227,1) 100%); /* IE10+ */
+  background: linear-gradient(to right, rgba(196,222,138,1) 0%, rgba(196,222,138,1) 12.5%, rgba(245,253,212,1) 12.5%, rgba(245,253,212,1) 25%, rgba(255,208,132,1) 25%, rgba(255,208,132,1) 37.5%, rgba(242,122,107,1) 37.5%, rgba(242,122,107,1) 50%, rgba(223,157,185,1) 50%, rgba(223,157,185,1) 62.5%, rgba(192,156,221,1) 62.5%, rgba(192,156,221,1) 75%, rgba(95,156,217,1) 75%, rgba(95,156,217,1) 87.5%, rgba(94,190,227,1) 87.5%, rgba(94,190,227,1) 87.5%, rgba(94,190,227,1) 100%); /* W3C */
+}            
+.a{
+  color: yellow;
+}
+/*Reading Room facilities start*/
+.heading{ text-align: center;
+  font-size :20px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  border: 2px #87ceeb;
+  padding: 20px;
+}
+.heading2 { text-align-last:left;
+        padding-left: 40px;           
+}
+
+.list{ font-family:system-ui;
+     font-size: 20px;
+     line-break:small;
+     padding-left: 70px;
+     background-color: mistyrose;
+     text-emphasis-color: black;
+   
+}
+
+.period{ font-family:  Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      font-size: 19px;
+      padding-left: 25px;
+}
+
+p{ text-align-last: left;
+  padding-left: 30px;
+  font-size: 25px;
+  line-height: 1.5em;
+}
+.Room1{font-family:  Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      font-size: 19px;
+      padding-left: 25px;
+}
+
+.page2{text-align-last: left;
+  padding-left: 30px;
+  font-size: 25px;
+  line-height: 1.5em;
+}
+
+.Room2 {font-family:  Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      font-size: 19px;
+      padding-left: 25px;
+}
+
+.page3{text-align-last: left;
+  padding-left: 30px;
+  font-size: 25px;
+  line-height: 1.5em;
+
+}
+/*Reading Room facilities close*/

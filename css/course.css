@@ -1,0 +1,144 @@
+.course{
+    background-color: dimgrey;
+    border-style: solid;
+    border-radius: 15px;
+    padding:2px;
+
+}
+
+
+
+td,th{
+    word-spacing: 2px;
+    padding:5px;
+    color: white;
+    padding-left: 5px;
+}
+.btn{
+    background-color:lawngreen;
+    border-radius: 20px;
+}
+.copyright{
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 25px;
+    text-align: center;
+    padding-top: 5px;
+  }
+  .far{
+    font-size:20px;
+  }
+  .fa-facebook{
+  border-color: gray;
+  border-style: dotted;
+    padding: 5px;
+    border-radius:18%;
+    color: white;
+  }
+  .fa-facebook:hover{
+    color: black;
+    background-color:#f2f2f2 ;
+    box-shadow: 0 0 5px #ffee10;
+  text-shadow: 0 0 5px #ffee10;
+    }
+  .fa-instagram{
+    border-color: gray;
+    border-style: dotted;
+    padding: 5px;
+    border-radius:18%;
+    color: white;
+  }
+  .fa-instagram:hover{
+    color: black;
+    background-color:#f2f2f2 ;
+    box-shadow: 0 0 5px #ffee10;
+  text-shadow: 0 0 5px #ffee10;
+    }
+  .fa-linkedin{
+    border-color: gray;
+    border-style: dotted;
+    padding: 5px;
+    border-radius:18%;
+    color: white;
+  }
+  .fa-linkedin:hover{
+    color: black;
+    background-color:#f2f2f2 ;
+    box-shadow: 0 0 5px #ffee10;
+  text-shadow: 0 0 5px #ffee10;
+    }
+  .fa-twitter-square{
+    border-color: gray;
+    border-style: dotted;
+    padding: 5px;
+    border-radius:18%;
+    color: white;
+  }
+  .fa-twitter-square:hover{
+    color: black;
+    background-color:#f2f2f2 ;
+    box-shadow: 0 0 5px #ffee10;
+  text-shadow: 0 0 5px #ffee10;
+    }
+    /*map*/
+.map{
+  padding-top:0;
+ padding-right: 100px;
+  float: right;
+  padding: bottom 0;
+  margin-top:auto;
+  margin-bottom:auto; 
+  padding-bottom:0%
+  
+}
+/*blink start*/
+.blink {
+  animation: blink-animation 1s steps(5, start) infinite;
+  -webkit-animation: blink-animation 1s steps(5, start) infinite;
+}
+@keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+@-webkit-keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+/*blink close*/
+/*image 360 rotation*/
+.rotate {
+  margin: 40px;
+  width: 90px;
+  height: 90px;
+  background-color: #cc2a41;
+  animation: spin 2s infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/*hr multiple colors*/
+hr.colored {
+  border: 0;   /* in order to override TWBS stylesheet */
+  height: 5px;
+  border-radius: 3px;
+
+  background: -moz-linear-gradient(left, rgba(196,222,138,1) 0%, rgba(196,222,138,1) 12.5%, rgba(245,253,212,1) 12.5%, rgba(245,253,212,1) 25%, rgba(255,208,132,1) 25%, rgba(255,208,132,1) 37.5%, rgba(242,122,107,1) 37.5%, rgba(242,122,107,1) 50%, rgba(223,157,185,1) 50%, rgba(223,157,185,1) 62.5%, rgba(192,156,221,1) 62.5%, rgba(192,156,221,1) 75%, rgba(95,156,217,1) 75%, rgba(95,156,217,1) 87.5%, rgba(94,190,227,1) 87.5%, rgba(94,190,227,1) 87.5%, rgba(94,190,227,1) 100%);  /* FF3.6+ */
+  background: -webkit-linear-gradient(left, rgba(196,222,138,1) 0%, rgba(196,222,138,1) 12.5%, rgba(245,253,212,1) 12.5%, rgba(245,253,212,1) 25%, rgba(255,208,132,1) 25%, rgba(255,208,132,1) 37.5%, rgba(242,122,107,1) 37.5%, rgba(242,122,107,1) 50%, rgba(223,157,185,1) 50%, rgba(223,157,185,1) 62.5%, rgba(192,156,221,1) 62.5%, rgba(192,156,221,1) 75%, rgba(95,156,217,1) 75%, rgba(95,156,217,1) 87.5%, rgba(94,190,227,1) 87.5%, rgba(94,190,227,1) 87.5%, rgba(94,190,227,1) 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(left, rgba(196,222,138,1) 0%, rgba(196,222,138,1) 12.5%, rgba(245,253,212,1) 12.5%, rgba(245,253,212,1) 25%, rgba(255,208,132,1) 25%, rgba(255,208,132,1) 37.5%, rgba(242,122,107,1) 37.5%, rgba(242,122,107,1) 50%, rgba(223,157,185,1) 50%, rgba(223,157,185,1) 62.5%, rgba(192,156,221,1) 62.5%, rgba(192,156,221,1) 75%, rgba(95,156,217,1) 75%, rgba(95,156,217,1) 87.5%, rgba(94,190,227,1) 87.5%, rgba(94,190,227,1) 87.5%, rgba(94,190,227,1) 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(left, rgba(196,222,138,1) 0%, rgba(196,222,138,1) 12.5%, rgba(245,253,212,1) 12.5%, rgba(245,253,212,1) 25%, rgba(255,208,132,1) 25%, rgba(255,208,132,1) 37.5%, rgba(242,122,107,1) 37.5%, rgba(242,122,107,1) 50%, rgba(223,157,185,1) 50%, rgba(223,157,185,1) 62.5%, rgba(192,156,221,1) 62.5%, rgba(192,156,221,1) 75%, rgba(95,156,217,1) 75%, rgba(95,156,217,1) 87.5%, rgba(94,190,227,1) 87.5%, rgba(94,190,227,1) 87.5%, rgba(94,190,227,1) 100%); /* IE10+ */
+  background: linear-gradient(to right, rgba(196,222,138,1) 0%, rgba(196,222,138,1) 12.5%, rgba(245,253,212,1) 12.5%, rgba(245,253,212,1) 25%, rgba(255,208,132,1) 25%, rgba(255,208,132,1) 37.5%, rgba(242,122,107,1) 37.5%, rgba(242,122,107,1) 50%, rgba(223,157,185,1) 50%, rgba(223,157,185,1) 62.5%, rgba(192,156,221,1) 62.5%, rgba(192,156,221,1) 75%, rgba(95,156,217,1) 75%, rgba(95,156,217,1) 87.5%, rgba(94,190,227,1) 87.5%, rgba(94,190,227,1) 87.5%, rgba(94,190,227,1) 100%); /* W3C */
+}
+  
+.a{
+  color: yellow;
+}
